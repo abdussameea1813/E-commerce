@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "dev": "nodemon backend/index.js",
-  "start": "node backend/index.js",
-  "build": "npm ci --prefix frontend && npm run build --prefix frontend"
-},
+    "dev": "nodemon backend/index.js",
+    "start": "node backend/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
   "keywords": [],
   "author": "",
   "type": "module",
